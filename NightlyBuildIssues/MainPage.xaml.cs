@@ -1,5 +1,4 @@
-﻿using CommunityToolkit.Maui.Layouts;
-
+﻿
 namespace NightlyBuildIssues
 {
     public partial class MainPage : ContentPage
@@ -8,7 +7,6 @@ namespace NightlyBuildIssues
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = new MainPageViewModel();
         }
     }
 
